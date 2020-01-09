@@ -1,0 +1,5 @@
+{
+    "require": {
+        "eternicode/bootstrap-datepicker": "^1.8"
+    }
+}

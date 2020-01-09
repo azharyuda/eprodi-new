@@ -1,0 +1,252 @@
+/*
+ * Base structure
+ */
+
+body {
+  padding-top: 50px;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 12px;
+  background: #fff;
+
+}
+
+/* Navbar CSS */
+.navbar-default {
+  background-color: #ffec63;
+  border-color: #f3e858;
+}
+.navbar-default .navbar-brand {
+  color: #000;
+  background-color: #ffec63;
+  border-right: 1px solid #d3da0a;
+  padding-right: 20px;
+}
+.navbar-default .navbar-brand a {
+  color: #f3f3f3;
+}
+
+.navbar-default .btn{
+  background-color: #ffec63;
+  margin-top: 10px;
+}
+
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #0c0415;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #0c0415;
+  background-color: #f3e858;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #0c0415;
+  background-color: #f3e858;
+}
+.navbar-default .navbar-toggle {
+  border-color: #f3e858;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #f3e858;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #0c0415;
+}
+
+.navbar-nav > .navbar-right > a:active,
+.navbar-nav > .navbar-right > a:hover,
+.navbar-nav > .navbar-right > a:focus{
+  color: #000;
+
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #0c0415;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #0c0415;
+    background-color: #f3e858;
+  }
+}
+
+
+/* Sidebar CSS */
+/* Hide for mobile, show later */
+.sidebar {
+  padding-top: 15px;
+}
+  .sidebar > a {
+    font-size: 18px;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    margin-top: -1px;
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #ffec63;
+    border-right: 1px solid #eee;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .header{
+    background: #9d58f9;
+    margin-top: -22px;
+    margin-left: -22px;
+    margin-right: -22px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-bottom: -25px;
+    color: white;
+  }
+}
+
+/* Sidebar navigation */
+
+.nav-sidebar {
+  margin-top: 30px;
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -25px;
+
+}
+.nav-sidebar > li > a {
+  color: #000 !important;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #293949;
+
+}
+
+.nav-sidebar > .parentmenu{
+  color: #ffffff;
+  border-bottom: 1px solid #9d58f9;
+}
+.nav-sidebar > li > a:hover,
+.nav-sidebar > li > a:focus{
+  transition: all 0.3s;
+  color: #000 !important;
+}
+
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #000 !important;
+  background-color: #428bca;
+
+}
+
+.nav-sidebar > .hide-menu {
+  padding-right: 20px;
+  padding-left: 30px;
+
+  margin-top: 5px;
+  color: #fff;
+}
+
+.nav-sidebar > .hide-menu > li{
+  border-bottom: 1px solid #d3d3d3;
+}
+
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
+    content: '\e259';
+    display: block;
+    position: absolute;
+    right: 20px;
+    font-family: 'Glyphicons Halflings';
+    font-size: 0.6em;
+}
+a[aria-expanded="true"]::before {
+    content: '\e260';
+
+}
+
+
+
+/*
+ * Main content
+ */
+
+.main {
+  padding: 20px;
+  transition: margin-left .5s;
+  }
+
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main .page-header {
+  margin-top: -30px;
+  margin-left: -70px;
+  border-bottom: none;
+}
+.main .main-utama-page{
+  margin-top: -50px;
+  margin-left: -70px;
+}
+.main > .panel-warning{
+  margin-left: -30px;
+  margin-top: -45px;
+}
+
+/*
+ * Placeholder dashboard ideas
+ */
+
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
