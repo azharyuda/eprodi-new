@@ -1,4 +1,4 @@
-# eprodi
+# About
 Sistem Informasi E-Prodi adalah sebuah sistem informasi berbasis web yang digunakan untuk mahasiswa Program Studi Sistem Informasi STMIK Widya Cipta Dharma untuk mengurus kegiatan administrasi akademik mereka pada saat semester akhir.
 
 # Feature
