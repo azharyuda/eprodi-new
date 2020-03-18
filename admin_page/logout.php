@@ -4,5 +4,5 @@
 
 
   session_destroy();
-  include "index.php";
+  include "index2.php";
  ?>
