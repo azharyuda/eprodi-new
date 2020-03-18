@@ -25,7 +25,7 @@ session_start();
     $_SESSION['username']=$ambil['username'];
 		$_SESSION['passw']=$ambil['passw'];
 		$_SESSION['level']=$ambil['level'];
-		header("location: index");
+		header("location: index2.php");
   }else{
     /* direct ke halaman login kembali */
     header("location: login.php?stat=salah");
