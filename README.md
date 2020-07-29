@@ -15,6 +15,4 @@ Sistem informasi ini dapat digunakan untuk kegiatan mahasiswa Program Studi Sist
 8. Jadwal sidang mahasiswa(sidang proposal dan sidang hasil skripsi, sidang hasil magang dan sidang Penulisan ilmiah)
 9. Pengiriman email otomatis setelah pendaftaran Magang/penulisan ilmiah, pengajuan proposal skripsi, dan pendaftaran sidang skripsi disetujui oleh Ketua Program Studi Sistem Informasi.
 
-# Screenshot
-
 
